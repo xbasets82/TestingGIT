@@ -1,0 +1,94 @@
+
+body{
+    margin: 0;
+}
+article{
+    display: flex;
+    flex-direction: row;
+    justify-content:stretch;
+    align-items: flex-start;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content:stretch;
+    align-items: flex-start;
+}
+#ICONOMIC{
+    display: flex;
+    flex-direction: row;
+    justify-content:stretch;
+    align-items: flex-start;
+}
+#ICONS{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around ;
+    height: 500px;
+}
+#ICONS2{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around ;
+    height: 500px;
+}
+img{
+    width: 100px;
+}
+
+#uno{
+    background-color: #aa2b1d; 
+    height: 100px;  
+    width: 200px; 
+    flex: 7;
+}
+#dos{
+    background-color: #cc561e;
+    height: 100px; 
+    width: 200px;
+}
+#tres{
+    background-color: #ef8d32;
+    height: 100px; 
+    width: 200px;
+}
+#cuatro{
+    background-color: #beca5c;
+    width: 200px;
+    height: 100px;
+}
+#cinco{
+    background-color: #aa2b1d; 
+    height: 100px;  
+    width: 200px; 
+    flex: 7;
+}
+#seis{
+    background-color: #cc561e;
+    height: 100px; 
+    width: 200px;
+}
+#siete{
+    background-color: #ef8d32;
+    height: 100px; 
+    width: 200px;
+}
+#ocho{
+    background-color: #beca5c;
+    width: 200px;
+    height: 100px;
+}
+.video{
+    height: 450px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex: 3;
+}
+ video{    
+    height: 400px;
+}
