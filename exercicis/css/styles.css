@@ -37,7 +37,6 @@ footer{
 img{
     width: 100px;
 }
-
 #uno{
     background-color: #aa2b1d; 
     height: 100px;  
@@ -81,14 +80,13 @@ img{
     height: 100px;
 }
 .video{
-    height: 450px;
+    height: 500px;
     width: 700px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    flex: 3;
 }
- video{    
+ iframe{    
     height: 400px;
 }
