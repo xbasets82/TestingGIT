@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FLEX</title>
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <h1 class="Rounded">FLEX</h1>
+    </header>
+    <main>
+      <article>
+        <h2 class="Rounded">Space Between</h2>
+        <section class="FRow SBetween">
+          <div class="Orange Square Rounded"></div>
+          <div class="Pink Square Rounded"></div>
+          <div class="Yellow Square Rounded"></div>
+          <div class="Red Square Rounded"></div>
+        </section>
+      </article>
+      <article>
+        <h2 class="Rounded">Space Between</h2>
+        <section class="FRow SAround">
+          <div class="Orange Square Rounded"></div>
+          <div class="Pink Square Rounded"></div>
+          <div class="Yellow Square Rounded"></div>
+          <div class="Red Square Rounded"></div>
+        </section>
+      </article>
+      <h2 class="Rounded">Columns</h2>
+      <article class="FRow SBetween">
+        <section class="FColumn SAround">
+          <div class="Orange Square Rounded"></div>
+          <div class="Pink Square Rounded"></div>
+        </section>
+        <section class="FColumnReverse SAround">
+          <div class="Orange Square Rounded FBigger"></div>
+          <div class="Pink Square Rounded"></div>
+        </section>
+        <section class="FColumn SAround">
+          <div class="Orange Square Rounded"></div>
+          <div class="Pink Square Rounded"></div>
+        </section>
+        <section class="FColumnReverse SBetween">
+          <div class="Orange Square Rounded"></div>
+          <div class="Pink Square Rounded"></div>
+        </section>
+      </article>
+      <h2 class="Rounded">iFrames</h2>
+      <article class="FRow SAround">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47774.470836619796!2d2.067576614411624!3d41.54966653775388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a494fd00277675%3A0x3691e3615821df42!2sSabadell%2C%20Barcelona!5e0!3m2!1ses!2ses!4v1614203695923!5m2!1ses!2ses"
+          width="600"
+          h
+          eight="600"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          class="Rounded"
+        ></iframe>
+        <iframe
+          src="https://mars.nasa.gov/maps/location/?mission=M20"
+          width="600"
+          height="600"
+          scrolling="no"
+          frameborder="0"
+          allowfullscreen
+          class="Rounded"
+        ></iframe>
+      </article>
+      <h2 class="Rounded">Images</h2>
+      <article class="FRow SAround">
+        <img class="Rounded" src="img/Curry.jpeg" alt="Curry" width="500" />
+        <img class="Rounded" src="img/Jordan.jpg" alt="Jordan" width="500" />
+      </article>
+      <h2 class="Rounded">SVG</h2>
+      <article class="FRow SBetween">
+        <img class="Circle" src="img/svg/git.svg" alt="git" />
+        <img class="Circle" src="img/svg/html5.svg" alt="html" />
+        <img class="Circle" src="img/svg/JS.svg" alt="js" />
+        <img class="Circle" src="img/svg/mongo.svg" alt="Mongo" />
+        <img class="Circle" src="img/svg/postgresql.svg" alt="PostGre" />
+        <img class="Circle" src="img/svg/react.svg" alt="react" />
+      </article>
+      <h2 class="Rounded">Listas</h2>
+      <article class="FRow SAround">
+        <ol>
+          <li>Primero</li>
+          <li>Segundo</li>
+          <li>Tercera</li>
+        </ol>
+        <ul>
+          <li>git</li>
+          <li>html</li>
+          <li>js</li>
+          <li>Mongo</li>
+          <li>Postgre</li>
+          <li>react</li>
+        </ul>
+      </article>
+      <h2>Tablas</h2>
+      <article class="FRow Center">
+        <table>
+          <thead>
+            <tr>
+              <th>Nombre</th>
+              <th>Color</th>
+              <th>Peso</th>
+              <th>Textura</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Naranja</td>
+              <td>Naranja</td>
+              <td>300g</td>
+              <td>Rugoso</td>
+            </tr>
+            <tr>
+              <td>Manzana</td>
+              <td>Roja</td>
+              <td>100g</td>
+              <td>Liso</td>
+            </tr>
+            <tr>
+              <td>Pera</td>
+              <td>Verde</td>
+              <td>50g</td>
+              <td>Liso</td>
+            </tr>
+            <tr>
+              <td>Melon</td>
+              <td>Amarilo</td>
+              <td>1Kg</td>
+              <td>Liso</td>
+            </tr>
+            <tr>
+              <td rowspan="2">Mora</td>
+              <td>Negra</td>
+              <td>20g</td>
+              <td>Rugoso</td>  
+            </tr>
+            <tr>
+                <td>Roja</td>
+                <td>20g</td>
+                <td>Rugoso</td>
+            </tr>
+          </tbody>
+          <tfoot></tfoot>
+        </table>
+      </article>
+    </main>
+  </body>
+</html>

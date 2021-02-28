@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f7e5bf;
+  margin: 10px;
+}
+header {
+  background-color: #57291f;
+  font-size: large;
+  margin: 0;
+}
+
+.FRow {
+  display: flex;
+  flex-direction: row;
+}
+.FColumn {
+  display: flex;
+  flex-direction: column;
+}
+.FColumnReverse {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.SBetween {
+  justify-content: space-between;
+}
+.SAround {
+  justify-content: space-around;
+}
+.Stretch {
+  justify-content: stretch;
+}
+.Center {
+  justify-content: center;
+}
+.FBigger {
+  flex: auto;
+}
+h1 {
+  text-align: center;
+  margin: 5px;
+}
+h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: #ffc500;
+  margin: 3px;
+}
+.Red {
+  background-color: #c0413b;
+}
+.Yellow {
+  background-color: #ffcd73;
+}
+.Orange {
+  background-color: #ff9200;
+}
+.Pink {
+  background-color: #d77b5f;
+}
+.Square {
+  width: 15rem;
+  height: 15rem;
+}
+.Rounded {
+  border-radius: 5%;
+}
+.Circle {
+  border-radius: 50%;
+  height: 150px;
+}
+ol {
+  list-style-type: lower-alpha;
+}
+ul {
+  list-style-type: square;
+  list-style-position: outside;
+}
+table {
+  border-collapse: collapse;
+  margin:10px;
+}
+table td,
+table th {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 0.35rem 0.6rem;
+}
+table tbody tr:nth-child(odd) {
+  background-color: rgba(173, 216, 230, 0.294);
+}
