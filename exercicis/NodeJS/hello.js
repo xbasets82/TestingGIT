@@ -1,2 +1,6 @@
-let js = "hola hola";
-console.log(js);
+Imprimir();
+
+function Imprimir(){
+    let js = "hola hola";
+    console.log(js);
+}
